@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: rgb(70, 145, 224);
+    color: #333;
+}
+
+h1, h2 ,h3 {
+    color: #0056b3;
+}
+
+
+input[type="text"], input[type="number"], input[type="submit"], input[type="password"],input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #FCFCFD;
+    color: #36395A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    font-family: "JetBrains Mono",monospace;
+    margin-bottom: 15px;
+    transition: ease-in-out 0.15s;
+    
+}
+
+button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+
+    transform: translateY(-5px);
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+}
+
+button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+    }
+    
+    button:active:hover {
+    box-shadow: #000000 0 3px 7px inset;
+    transform: translateY(2px);
+    }
+
+pre{
+    border-radius: 1.5rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}
+
+.example-section {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.code-block {
+  
+    width: 100%;
+    max-width: 45rem;
+    margin: 10px auto;
+
+}
+
+.toggle-btn {
+    background-color: #b8b8b8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: block;
+    width: auto; 
+    margin-bottom: 10px;
+}
+
+.toggle-btn:hover{
+    background-color: #747474;
+    transition: ease-in-out 0.4s;
+}
+
+.code-content {
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.code-content.show {
+    max-height: 500px;
+}
+
+.code-content.hide {
+    max-height: 0;
+}
+
+pre {
+    margin: 0;
+    font-family: monospace;
+    font-size: 14px;
+    overflow-x: auto;
+}
